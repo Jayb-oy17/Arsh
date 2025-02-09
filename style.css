@@ -145,6 +145,7 @@ h6 {
   align-items: center;
   background-color: var(--heading-color);
   height: 90vh;
+  scroll-margin-top: 8rem;
 }
 .heroTitle {
   color: var(--background-color);
@@ -214,6 +215,9 @@ h6 {
 }
 
 /* ABOUT SECTION START  */
+.about {
+  scroll-margin-top: 10rem;
+}
 .aboutInfo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -361,6 +365,7 @@ h6 {
 /* SERVICE SECTION START  */
 .service {
   background-color: whitesmoke;
+  scroll-margin-top: 8rem;
 }
 .serviceInfoBox {
   display: grid;
@@ -440,6 +445,9 @@ h6 {
 }
 
 /* PORTFOLIO SECTION START  */
+.portfolio {
+  scroll-margin-top: 8rem;
+}
 .portfolios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -455,7 +463,9 @@ h6 {
 }
 
 /* TEAM  */
-
+.team {
+  scroll-margin-top: 8rem;
+}
 .team-grid-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -506,6 +516,7 @@ h6 {
 
 .pricing {
   background-color: whitesmoke;
+  scroll-margin-top: 8rem;
 }
 
 .pricing-box {
@@ -608,12 +619,20 @@ sub {
   margin-top: 3rem;
 }
 
+.testimonial {
+  scroll-margin-top: 8rem;
+}
+
 /* FAQ SECTIO START  */
 .faq {
   background-color: whitesmoke;
+  scroll-margin-top: 8rem;
 }
 
 /* CONTACT SECTION START  */
+.contact {
+  scroll-margin-top: 8rem;
+}
 .contact-box {
   display: grid;
   grid-template-columns: 2fr 3fr;
@@ -829,7 +848,6 @@ swiper-slide {
   font-size: 16px;
   font-style: italic;
 }
-
 
 /* MODAL  */
 
