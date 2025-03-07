@@ -106,15 +106,13 @@ h6 {
   list-style: none;
   gap: 3rem;
 }
-.navs:link,
-.navs:visited {
+.navs {
   font-size: 16px;
   font-family: var(--heading-font);
   color: var(--background-color);
   text-decoration: none;
   transition: 0.3s;
 }
-.navs:link,
 .navs:hover {
   color: var(--accent-color);
 }
