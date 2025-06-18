@@ -1,46 +1,54 @@
-/** @format */
-
 @media (max-width: 1000px) {
   .padd-10 {
-    padding: 2rem;
+    padding: 1rem 2rem;
   }
+
   .hero {
     flex-direction: column-reverse;
     text-align: center;
     gap: 0rem;
   }
+
   .heroImg {
-    width: 70%;
+    width: 100%;
   }
+
   .heroBox {
     justify-content: center;
   }
+
   .aboutInfo,
   .aboutService,
   .aboutRating {
     grid-template-columns: 1fr;
   }
+
   .serviceInfoBox,
   .footer {
     grid-template-columns: 1fr 1fr;
   }
+
   .aboutServiceImg {
     width: 100%;
   }
-}
-@media (max-width: 900px) {
-  .hero {
-    height: 50vh;
+
+  .aboutServiceImg {
+    grid-row: 1;
   }
+}
+
+@media (max-width: 900px) {
   .serviceInfoBox,
   .team-grid-box,
   .pricing-box,
   .contact-box {
     grid-template-columns: 1fr;
   }
+
   .padd-10 {
-    padding: 2rem 10rem;
+    padding: 1rem 10rem;
   }
+
   .navToggle {
     display: flex;
     align-items: center;
@@ -48,13 +56,12 @@
     font-size: 5rem;
     color: var(--background-color);
   }
+
   .close {
     display: none;
   }
-  .nav .navList {
-    position: fixed;
-    top: 0;
-    right: 0;
+
+  .navList {
     display: none;
   }
 
@@ -62,16 +69,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    position: absolute;
+    align-items: start;
+    padding: 2rem;
+    position: fixed;
     top: 9rem;
     right: 1rem;
     width: 20rem;
-    height: 40vh;
     border-radius: 1rem;
     z-index: 999;
     background-color: var(--default-color);
+    gap: 1rem;
   }
+
   .stick .open {
     display: none;
   }
@@ -82,33 +91,43 @@
 }
 @media (max-width: 700px) {
   .padd-10 {
-    padding: 2rem;
+    padding: 1rem 2rem;
   }
 }
+
 @media (max-width: 500px) {
   .portfolios {
     grid-template-columns: 1fr;
   }
+
   .ctaBoxe {
     grid-template-columns: 1fr;
     text-align: center;
   }
+
   .ctaLink:link,
   .ctaLink:visited {
     margin: auto;
   }
+
+  .news-btn-box{
+    width: 100%;
+  }
 }
+
 @media (max-width: 400px) {
   .team-box,
   .contact-info-box {
     flex-direction: column;
     text-align: center;
   }
+
   .footer {
     grid-template-columns: 1fr;
   }
 }
-@media (max-width:300px) {
+
+@media (max-width: 300px) {
   .contact-address {
     width: 100%;
     padding: 1rem;
