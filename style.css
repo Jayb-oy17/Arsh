@@ -32,12 +32,13 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
+  line-height: 1.2;
 }
 .padd-5 {
   padding: 3rem 5rem;
 }
 .padd-10 {
-  padding: 1rem 10rem;
+  padding: 2rem 10rem;
 }
 .mag-2 {
   margin: 2rem auto;
@@ -114,6 +115,10 @@ h6 {
 .navs:hover {
   color: var(--accent-color);
 }
+.navs.active{
+  color: var(--accent-color);
+}
+
 .navBtnBox {
   display: flex;
   align-items: center;
